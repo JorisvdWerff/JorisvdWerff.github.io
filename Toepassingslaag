@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Lagen Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #007bff;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welkom op de Informatica Startpagina</h1>
+        <p>Ontdek de wereld van informatica</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <a href="#">Categorieën</a>
+            <div class="dropdown-content">
+                <a href="3Lagenmodel.html">3Lagenmodel</a>
+                <a href="#">Fysiekelaag</a>
+                <a href="#">Logischelaag</a>
+                <a href="#">Toepassingslaag</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Toepassingslaag</h2>
+  
+        <p>De toepassingslaag</p>
+    </div>
+</body>
+</html>
